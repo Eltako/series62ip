@@ -1,13 +1,13 @@
-# Eltako Series 62 IP
+# Eltako SERIES 62-IP
 
-This repository is the starting point for all things related to the Eltako Series 62 IP.
+This repository is the starting point for all things related to the Eltako SERIES 62-IP.
 If you have questions, want to report a bug or request a feature that is not specific to another repository, then this is the right place to do so.
 
-## What is the Eltako Series 62 IP
+## What is the Eltako SERIES 62-IP
 
 ## Tools
 
-In the following we give a short summary of tools that may come in handy when working with Eltako Series 62 IP devices.
+In the following we give a short summary of tools that may come in handy when working with Eltako SERIES 62-IP devices.
 
 ### Provision devices
 
@@ -20,7 +20,7 @@ For all other setups you may either use the Eltako Connect App or a command line
 
 ### Secure Communication with Devices
 
-The Eltako Series 62 IP devices come pre-loaded with certificates used to secure the communication between the Eltako Connect App and the device.
+The Eltako SERIES 62-IP devices come pre-loaded with certificates used to secure the communication between the Eltako Connect App and the device.
 You may want to do the same when communicating with the devices using your own means.
 
 * [Eltako Certificate Authority](https://github.com/Eltako/certificate-authority)
@@ -37,7 +37,7 @@ The latter two options can be used if a device has no permanent internet connect
 
 ### Communicate with Devices
 
-The Eltako Series 62 IP devices feature a REST API which can be used to configure and control the device.
+The Eltako SERIES 62-IP devices feature a REST API which can be used to configure and control the device.
 A postman collection is available at https://github.com/Eltako/series62ip-api.
 However you may also use the compiled version available at TBD:
 
