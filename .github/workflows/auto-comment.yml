@@ -1,0 +1,13 @@
+name: Auto Comment
+on: [issues]
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: wow-actions/auto-comment@v1
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          issuesOpened: |
+            👋 @{{ author }}
+            Thank you for raising an issue. We will will investigate into the matter and get back to you as soon as possible. 
+            It is currently a holiday season. You can expect to hear from us on 9th of January, 2023. We wish you happy holidays!
