@@ -16,29 +16,20 @@ For Apple Homekit you should use the Apple Home App to do so.
 For all other setups you may either use the Eltako Connect App or a command line utility.
 
 * [Eltako Connect App for Android](https://play.google.com/store/apps/details?id=com.eltako.connect)
-* [Eltako Command-line Provisioning](https://github.com/Eltako/series62ip-provisioning)
+* [Command line utility](https://github.com/espressif/esp-idf/tree/edd815af2e/tools/esp_prov)
 
 ### Secure Communication with Devices
 
 The Eltako SERIES 62-IP devices come pre-loaded with certificates used to secure the communication between the Eltako Connect App and the device.
 You may want to do the same when communicating with the devices using your own means.
 
-* [Eltako Certificate Authority](https://github.com/Eltako/certificate-authority)
-
 ### Update Devices
 
-There are multiple options to update a device:
-
-* The device checks every 12 hours for an update
-* Use the Eltako Connect App
-* Use a command line script [Eltako Command-line Updater](https://github.com/Eltako/series62ip-updater)
-
-The latter two options can be used if a device has no permanent internet connection.
+The device checks automatically every 12 hours for an update.
 
 ### Communicate with Devices
 
 The Eltako SERIES 62-IP devices feature a REST API which can be used to configure and control the device.
-A postman collection is available at https://github.com/Eltako/series62ip-api.
-However you may also use the compiled version available at TBD:
+A postman collection is available at http://eltako.com/redirect/api/series-62-ip
 
 :warning: The REST API is not finalized yet and may change in the future.
