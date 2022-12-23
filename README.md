@@ -4,6 +4,7 @@ This repository is the starting point for all things related to the Eltako SERIE
 If you have questions, want to report a bug or request a feature that is not specific to another repository, then this is the right place to do so.
 
 ## What is the Eltako SERIES 62-IP
+The brand new products that work with WiFi, are Apple Home certified and “built for Matter”. As soon as the Matter certification is available, the actuators will be delivered with this new standard directly from the factory.
 
 ## Tools
 
