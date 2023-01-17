@@ -31,6 +31,6 @@ The device checks automatically every 12 hours for an update.
 ### Communicate with Devices
 
 The Eltako SERIES 62-IP devices feature a REST API which can be used to configure and control the device.
-A postman collection is available at http://eltako.com/redirect/api/series-62-ip
+A postman collection is available at http://eltako.com/redirect/api-series-62-ip
 
 :warning: The REST API is not finalized yet and may change in the future.
